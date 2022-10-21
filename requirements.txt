@@ -9,4 +9,4 @@ pytz==2022.4
 sqlparse==0.4.3
 tzdata==2022.5
 whitenoise==6.2.0
-pip install pip==21.3.1
+pip==22.2.2
