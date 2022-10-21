@@ -1,0 +1,1 @@
+web: gunicorn metaverserApi.wsg --log-file -
