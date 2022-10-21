@@ -1,1 +1,1 @@
-web:gunicorn metaverseApi.wsgi --log-file -
+web: gunicorn metaverseApi.wsgi --log-file -
