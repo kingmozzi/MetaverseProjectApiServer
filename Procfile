@@ -1,1 +1,1 @@
-web: gunicorn metaverserApi.wsg --log-file -
+web:gunicorn metaverserApi.wsgi --log-file -
