@@ -15,11 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from board import views
+from board import views as board_views
+from webglapp import views as webgl_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('board', views.board_list),
-    path('board/<int:id>', views.board),
+    path('board',  board_views.board_list),
+    path('board/<int:id>',  board_views.board),
+
+    path('unity', webgl_views.unity),
+    path('test', webgl_views.test),
 ]
